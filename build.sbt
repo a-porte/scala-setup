@@ -3,10 +3,10 @@ lazy val root = (project in file("."))
     name := "project-name",
     version := "0.1",
 
-    scalaVersion := "3.1.0",
+    scalaVersion := "2.13.0",
 
     libraryDependencies ++= Seq(
-      "org.scalatest" %% "scalatest-funspec" % "3.2.16" % "test"
+      "org.scalatest" %% "scalatest-funspec" % "3.2.11" % "test"
     ),
 
     scalacOptions ++= Seq("-Xfatal-warnings")

@@ -1,1 +1,4 @@
-@main def main() = println("Hello world!")
+object Main {
+  def main(args: Array[String]) =
+    println("Hello world!")
+}
